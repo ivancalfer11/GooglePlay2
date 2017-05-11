@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=titulo\ anoPubli
+comment0.target=ProductoMultimedia(java.lang.String,\ int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Multimedia\r\n
+comment1.params=
+comment1.target=java.lang.String\ getTitulo()
+comment2.params=
+comment2.target=int\ getAno()
+numComments=3

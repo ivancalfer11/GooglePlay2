@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=titulo\ anoPubli\ numPag\ ficcion
+comment0.target=Libro(java.lang.String,\ int,\ int,\ boolean)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Ebook\r\n
+comment1.params=
+comment1.target=int\ getNumeroPaginas()
+comment2.params=
+comment2.target=boolean\ getFiccion()
+numComments=3
