@@ -49,6 +49,18 @@ public class Aplicacion extends Producto
         }
         return cadenaADevolver;
         
+        
     }
+    public double getPrecio()
+    {
+        int precio =0;
+        return precio;
+        
+    }
+    public void comprado()
+    {
+        numVentas++;
+    }
+    
    
 }

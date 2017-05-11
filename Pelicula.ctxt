@@ -1,9 +1,11 @@
 #BlueJ class context
 comment0.params=titulo\ anoPubli\ duracion\ calidad
-comment0.target=Pelicula(java.lang.String,\ int,\ int,\ Calidad)
+comment0.target=Pelicula(java.lang.String,\ int,\ int,\ int)
 comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Pel\u00EDcula\r\n
 comment1.params=
 comment1.target=int\ getDuracion()
 comment2.params=
 comment2.target=java.lang.String\ getCalidad()
-numComments=3
+comment3.params=
+comment3.target=void\ comprado()
+numComments=4

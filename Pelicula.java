@@ -10,12 +10,12 @@ public class Pelicula extends ProductoMultimedia
     // En el atributo booleano calidad true indica FullHD y false cualquier otra calidad.
    
     private int duracion;
-    private Calidad calidad;
+    private int calidad;
 
     /**
      * Constructor for objects of class Película
      */
-    public Pelicula(String titulo , int anoPubli , int duracion , Calidad calidad)
+    public Pelicula(String titulo , int anoPubli , int duracion , int calidad)
     {
         super(titulo, anoPubli);
         this.duracion = duracion;
@@ -29,14 +29,18 @@ public class Pelicula extends ProductoMultimedia
     {
         String cadenaADevolver = " ";
         switch(calidad){
-           case FULLHD:
+           case 1080:
            cadenaADevolver = "FullHD";
            break;
-           case HD:
+           default:
            cadenaADevolver = "HD";
            break;
            
         }
         return cadenaADevolver;
+    }
+    public void comprado()
+    {
+        numVentas++;
     }
 }

@@ -39,4 +39,33 @@ public class GooglePlay
     {
         productosDisponibles.add(producto);
     }
+    public double comprar(String correo , String titulo)
+    {
+        double precio = -1;
+        int contadorLento = 0;
+        boolean buscando1;
+        int contadorRapido = 0;
+        boolean buscando2;
+        while (contadorLento < usuarios.size() &&  !buscando1  )
+        {
+            if(usuarios.get(contadorLento) != null && usuarios.get(contadorLento).getNombreCuenta().equals(correo))
+            {
+                while (contadorRapido < productosDisponibles.size() && buscando2 == true)
+                {
+                    if(productosDisponibles.get(contadorRapido) !=null && productosDisponibles.get(contadorRapido).getNombre().equals(titulo))
+                    {
+                        usuarios.get(contadorLento).comprarProducto(productosDisponibles.get(contadorRapido));
+                        precio = productosDisponibles.get(contadorRapido).getPrecio();
+
+                        
+                    }
+                }
+                contadorRapido++;
+            }
+        }
+        contadorLento++;
+        
+        return precio;
+        
+    }
 }

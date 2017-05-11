@@ -5,9 +5,6 @@ public class Usuario
     // instance variables - replace the example below with your own
     private String correoUsuario;
     private ArrayList<Producto> productosComprados = new ArrayList<Producto>();
-
-    
-
     /**
      * Constructor for objects of class Usuario
      */
@@ -28,10 +25,9 @@ public class Usuario
     {
         return correoUsuario;
     }
-    public void comprarProducto(Producto producto)
-    {
-        productosComprados.add(producto);
-    }
-   
+   public void comprarProducto(Producto producto)
+   {
+       productosComprados.add(producto);
+   }
     
 }

@@ -71,8 +71,8 @@ public class GooglePlayTest01
         Producto libro1 = new Libro("No culpes al karma", 2014, 329, true);
         Producto libro2 = new Libro("La chica del tren", 2015, 625, true);
         Producto libro3 = new Libro("El poder del ahora", 2011, 154, false);        
-        Producto pelicula1 = new Pelicula("El renacido", 2015, 156, Calidad.FULLHD);
-        Producto pelicula2 = new Pelicula("Casablanca", 1942, 102, Calidad.HD);
+        Producto pelicula1 = new Pelicula("El renacido", 2015, 156, 1080);
+        Producto pelicula2 = new Pelicula("Casablanca", 1942, 102, 480);
         
         // Comprobaciones sobre las aplicaciones
         assertEquals("Spotify", ((Aplicacion)aplicaci1).getNombre());

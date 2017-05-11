@@ -5,7 +5,7 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class ProductoMultimedia extends Producto
+public abstract class ProductoMultimedia extends Producto
 {
     // instance variables - replace the example below with your own
     private String titulo;

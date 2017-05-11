@@ -29,6 +29,17 @@ public class Libro extends ProductoMultimedia
     {
         return ficcion;
     }
+    public void comprado()
+    {
+        numVentas++;
+    }
+    public double getPrecio()
+    {
+        int precio;
+        precio = (numPag/100)*(anoPubli-2010);
+        return precio;
+        
+    }
     
     
 }
